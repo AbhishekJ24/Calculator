@@ -4,14 +4,16 @@
 }
 
 .calculator {
-    width: 300px;
-    height: 70vh;
-    margin: 0 auto;
+    margin: 0px auto;
+    width: 40vmin;
+    height: 45vmin;
     padding: 20px;
-    border: 1px solid;
-    border-radius: 5px;
+    border-top: 4px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #B1A6A4;
+    overflow: scroll;
 }
 
 input[type="text"] {
@@ -31,12 +33,12 @@ input[type="text"] {
     grid-gap: 10px;
     justify-content: space-around;
     background-color: #B1A6A4;
-    height: 0.8em;
+    height: 10px;
 }
 
 .btn {
     font-size: 15px;
-    width: 40px;
+    width: 38px;
     padding: 10px;
     text-align: center;
     background-color: #eee;
